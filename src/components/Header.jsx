@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { RiHome5Line, RiTrophyLine, RiBookOpenLine, RiImageLine, RiChat3Line, RiCloseLine, RiMenu4Line, RiMoonLine, RiSunLine } from 'react-icons/ri';
 import logo from '../assets/img/react-2.svg';
 
+
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const [theme, setTheme] = useState(getInitialTheme());

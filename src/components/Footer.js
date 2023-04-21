@@ -1,11 +1,12 @@
-import { RiLinkedinBoxLine, RiGithubLine, RiDribbbleLine } from 'react-icons/ri';
+import { Fade } from "react-awesome-reveal";
 
+import { RiLinkedinBoxLine, RiGithubLine, RiDribbbleLine } from 'react-icons/ri';
 
 
 const Footer = () => {
     return (
         <footer className="footer">
-
+            <Fade triggerOnce="true" duration="3000">
                 <div className="footer__container container">
                     <ul className="footer__social">
                         <a href="https://www.linkedin.com" target="_blank" className="footer__social-link">
@@ -22,7 +23,7 @@ const Footer = () => {
                         &#169;2023 All rights reserved.
                     </span>
                 </div>
-
+            </Fade>
         </footer>
     )
 }
