@@ -54,7 +54,7 @@ function Contact() {
             <div className="contact_container container grid section_border">
 
                 {/* ==================== CONTACTS 1 ==================== */}
-                <Slide direction="left" triggerOnce="true" duration="3000">
+                <Slide direction="left" triggerOnce="true" duration="2000">
                     <div className="contact_info">
                         <div className="contact_data">
                             <span className="contact_data-title">Email</span>
@@ -78,7 +78,7 @@ function Contact() {
                 </Slide>
 
                 {/* ==================== CONTACTS 2 ==================== */}
-                <Slide direction="right" triggerOnce="true" duration="3000">
+                <Slide direction="right" triggerOnce="true" duration="2000">
                     <div className="contact_content">
                         <h3 className="contact_title">
                             <RiMailSendLine className='contact_title-logo'/> Write me a message

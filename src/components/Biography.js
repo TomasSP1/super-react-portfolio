@@ -12,7 +12,7 @@ const Biography = () => {
             <div className="biography_container container grid section_border">
 
                 {/* ==================== BIOGRAPHY 1 ==================== */}
-                <Slide direction="left" triggerOnce="true" duration="3000">
+                <Slide direction="left" triggerOnce="true" duration="2000">
                     <div className="biography_content">
 
                         <div className="biography_info">
@@ -26,7 +26,7 @@ const Biography = () => {
                 </Slide>
 
                 {/* ==================== BIOGRAPHY 2 ==================== */}
-                <Slide direction="right" triggerOnce="true" duration="3000">
+                <Slide direction="right" triggerOnce="true" duration="2000">
                     <div className="biography_content">
 
                         <div className="biography_info">

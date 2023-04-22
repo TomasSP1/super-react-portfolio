@@ -25,7 +25,7 @@ const Skills = () => {
 
             <div className="skills_container container grid section_border">
                 {/* ==================== SKILLS 1 ==================== */}
-                <Slide direction="left" triggerOnce="true" duration="3000">
+                <Slide direction="left" triggerOnce="true" duration="2000">
                     <div className="skills_content">
                         <h3 className="skills_title">
                             <RiCodeSSlashFill className="skills-title-logo"/> Frontend Developer
@@ -84,7 +84,7 @@ const Skills = () => {
                 </Slide>
 
                 {/* ==================== SKILLS 2 ==================== */}
-                <Slide direction="right" triggerOnce="true" duration="3000">
+                <Slide direction="right" triggerOnce="true" duration="2000">
                     <div className="skills_content">
                         <h3 className="skills_title">
                             <RiDatabase2Line className="skills-title-logo"/> Backend Developer

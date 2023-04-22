@@ -11,7 +11,7 @@ const Home = () => {
     <section className="home section" id="home">
       <div className="home_container container grid section_border">
         {/* ==================== HOME 1 ==================== */}
-        <Slide direction="down" triggerOnce="true" duration="3000">
+        <Slide direction="down" triggerOnce="true" duration="2000">
           <div className="home_data grid">
             <h1 className="home_title">
               Let's take web development to the next level!
@@ -48,7 +48,7 @@ const Home = () => {
         </Slide>
 
         {/* ==================== HOME 2 ==================== */}
-        <Slide direction="up" triggerOnce="true" duration="3000">
+        <Slide direction="up" triggerOnce="true" duration="2000">
           <div className="home_info">
             <div>
               <h3 className="home_info-title">INTRO</h3>
