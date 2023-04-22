@@ -9,25 +9,26 @@ import { Fade } from "react-awesome-reveal";
 
 import { RiArrowRightLine, RiArrowLeftSLine, RiArrowRightSLine } from 'react-icons/ri';
 
-import project1 from '../assets/img/project1.png';
-import project2 from '../assets/img/project2.png';
-import project3 from '../assets/img/project3.png';
-import project4 from '../assets/img/project4.png';
-import project5 from '../assets/img/project5.png';
-import project6 from '../assets/img/project6.png';
-import project7 from '../assets/img/project7.png';
+import project1 from '../images/project1.png';
+import project2 from '../images/project2.png';
+import project3 from '../images/project3.png';
+import project4 from '../images/project4.png';
+import project5 from '../images/project5.png';
+import project6 from '../images/project6.png';
+import project7 from '../images/project7.png';
 
 
 const Projects = () => {
     return (
+        /*  ==================== PROJECTS ====================  */
         <section className="projects section" id="projects">
-            <h2 className="section__title">Projects</h2>
-            <span className="section__subtitle">My favorite projects</span>
+            <h2 className="section_title">Projects</h2>
+            <span className="section_subtitle">My favorite projects</span>
 
             <Fade triggerOnce="true" duration="3000">
-                <div className="container section__border">
+                <div className="container section_border">
                     <Swiper
-                        className="projects__container swiper"
+                        className="projects_container swiper"
                         modules={[Navigation, Pagination]}
                         spaceBetween={24}
                         slidesPerView={1}
@@ -43,105 +44,113 @@ const Projects = () => {
                                 spaceBetween: -56,
                             },
                         }}>
+
+                        {/* ==================== PROJECT 1 ==================== */}
                         <SwiperSlide>
-                            <div className="projects__content">
-                                <img src={project1} alt="projects image" className="projects__img" />
+                            <div className="projects_content">
+                                <img src={project1} alt="projects image" className="projects_img" />
 
                                 <div>
-                                    <h1 className="projects__title">Modern e-shop</h1>
+                                    <h1 className="projects_title">Modern e-shop</h1>
 
-                                    <a href="https://e-shop-orcin.vercel.app/" className="projects__button">
-                                        View demo <RiArrowRightLine />
+                                    <a href="https://e-shop-orcin.vercel.app/" className="projects_button">
+                                        View demo <RiArrowRightLine className='viev-demo-btn'/>
                                     </a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
+                        {/* ==================== PROJECT 2 ==================== */}
                         <SwiperSlide>
-                            <div className="projects__content">
-                                <img src={project2} alt="projects image" className="projects__img" />
+                            <div className="projects_content">
+                                <img src={project2} alt="projects image" className="projects_img" />
 
                                 <div>
-                                    <h1 className="projects__title">Restaurant menu</h1>
+                                    <h1 className="projects_title">Restaurant menu</h1>
 
-                                    <a href="https://meniu-project.vercel.app/" className="projects__button">
-                                        View demo <RiArrowRightLine />
+                                    <a href="https://meniu-project.vercel.app/" className="projects_button">
+                                        View demo <RiArrowRightLine className='viev-demo-btn'/>
                                     </a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
+                        {/* ==================== PROJECT 3 ==================== */}
                         <SwiperSlide>
-                            <div className="projects__content">
-                                <img src={project3} alt="projects image" className="projects__img" />
+                            <div className="projects_content">
+                                <img src={project3} alt="projects image" className="projects_img" />
 
                                 <div>
-                                    <h1 className="projects__title">Advertisement page</h1>
+                                    <h1 className="projects_title">Advertisement page</h1>
 
-                                    <a href="https://advertisment-project.vercel.app/" className="projects__button">
-                                        View demo <RiArrowRightLine />
+                                    <a href="https://advertisment-project.vercel.app/" className="projects_button">
+                                        View demo <RiArrowRightLine className='viev-demo-btn'/>
                                     </a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
+                        {/* ==================== PROJECT 4 ==================== */}
                         <SwiperSlide>
-                            <div className="projects__content">
+                            <div className="projects_content">
                                 <img
                                     src={project4}
                                     alt="projects image"
-                                    className="projects__img"
+                                    className="projects_img"
                                 />
 
                                 <div>
-                                    <h1 className="projects__title">Simple countries filter</h1>
+                                    <h1 className="projects_title">Simple countries filter</h1>
 
                                     <a
                                         href="https://filtering-countries-using-javascript.vercel.app/"
-                                        className="projects__button"
+                                        className="projects_button"
                                     >
-                                        View demo <RiArrowRightLine />
+                                        View demo <RiArrowRightLine className='viev-demo-btn'/>
                                     </a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
+                        {/* ==================== PROJECT 5 ==================== */}
                         <SwiperSlide>
-                            <div className="projects__content">
-                                <img src={project5} alt="projects image" className="projects__img" />
+                            <div className="projects_content">
+                                <img src={project5} alt="projects image" className="projects_img" />
 
                                 <div>
-                                    <h1 className="projects__title">Advertisement page</h1>
+                                    <h1 className="projects_title">API movie search engine</h1>
 
-                                    <a href="https://advertisment-project.vercel.app/" className="projects__button">
-                                        View demo <RiArrowRightLine />
+                                    <a href="https://new-movie-search-engine.vercel.app/" className="projects_button">
+                                        View demo <RiArrowRightLine className='viev-demo-btn'/>
                                     </a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
+                        {/* ==================== PROJECT 6 ==================== */}
                         <SwiperSlide>
-                            <div className="projects__content">
-                                <img src={project6} alt="projects image" className="projects__img" />
+                            <div className="projects_content">
+                                <img src={project6} alt="projects image" className="projects_img" />
 
                                 <div>
-                                    <h1 className="projects__title">Advertisement page</h1>
+                                    <h1 className="projects_title">Form with Local storage</h1>
 
-                                    <a href="https://advertisment-project.vercel.app/" className="projects__button">
-                                        View demo <RiArrowRightLine />
+                                    <a href="https://form-with-local-storage.vercel.app/" className="projects_button">
+                                        View demo <RiArrowRightLine className='viev-demo-btn'/>
                                     </a>
                                 </div>
                             </div>
                         </SwiperSlide>
 
+                        {/* ==================== PROJECT 7 ==================== */}
                         <SwiperSlide>
-                            <div className="projects__content">
-                                <img src={project7} alt="projects image" className="projects__img" />
+                            <div className="projects_content">
+                                <img src={project7} alt="projects image" className="projects_img" />
 
                                 <div>
-                                    <h1 className="projects__title">Advertisement page</h1>
+                                    <h1 className="projects_title">Simple case converter</h1>
 
-                                    <a href="https://advertisment-project.vercel.app/" className="projects__button">
+                                    <a href="https://case-converter-three.vercel.app/" className="projects_button">
                                         View demo <RiArrowRightLine className='viev-demo-btn'/>
                                     </a>
                                 </div>

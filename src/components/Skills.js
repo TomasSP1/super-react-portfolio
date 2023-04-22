@@ -1,79 +1,83 @@
 import { Slide } from "react-awesome-reveal";
 
-import html from '../assets/img/html-1.svg';
-import css from '../assets/img/css-3.svg';
-import javascript from '../assets/img/logo-javascript.svg';
-import reactImg from '../assets/img/react-2.svg';
-import sass from '../assets/img/sass-1.svg';
-import bootstrap from '../assets/img/bootstrap-5-1.svg';
-import nodejsIcon from '../assets/img/nodejs-icon.svg';
-import pythonIcon from '../assets/img/python-5.svg';
-import mysqlIcon from '../assets/img/mysql-6.svg';
-import firebaseIcon from '../assets/img/firebase-1.svg';
-import mongodbIcon from '../assets/img/mongodb-icon-1.svg';
+import { RiDatabase2Line, RiCodeSSlashFill } from 'react-icons/ri';
+
+import html from '../images/html-1.svg';
+import css from '../images/css-3.svg';
+import javascript from '../images/logo-javascript.svg';
+import reactImg from '../images/react-2.svg';
+import sass from '../images/sass-1.svg';
+import bootstrap from '../images/bootstrap-5-1.svg';
+import nodejsIcon from '../images/nodejs-icon.svg';
+import pythonIcon from '../images/python-5.svg';
+import mysqlIcon from '../images/mysql-6.svg';
+import firebaseIcon from '../images/firebase-1.svg';
+import mongodbIcon from '../images/mongodb-icon-1.svg';
+
+
 
 const Skills = () => {
     return (
         /* ==================== SKILLS ==================== */
         <section className="skills section" id="skills">
-            <h2 className="section__title">Skills</h2>
-            <span className="section__subtitle">My programming skills</span>
+            <h2 className="section_title">Skills</h2>
+            <span className="section_subtitle">My programming skills</span>
 
-            <div className="skills__container container grid section__border">
+            <div className="skills_container container grid section_border">
                 {/* ==================== SKILLS 1 ==================== */}
                 <Slide direction="left" triggerOnce="true" duration="3000">
-                    <div className="skills__content">
-                        <h3 className="skills__title">
-                            <i className="ri-braces-line"></i> Frontend Developer
+                    <div className="skills_content">
+                        <h3 className="skills_title">
+                            <RiCodeSSlashFill className="skills-title-logo"/> Frontend Developer
                         </h3>
 
-                        <div className="skills__info">
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                        <div className="skills_info">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={html} alt="skills image" />
                                 </div>
-                                <h3 className="skills__name">HTML</h3>
-                                <span className="skills__subtitle">Intermediate</span>
+                                <h3 className="skills_name">HTML</h3>
+                                <span className="skills_subtitle">Intermediate</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={css} alt="skills image" />
                                 </div>
-                                <h3 className="skills__name">CSS</h3>
-                                <span className="skills__subtitle">Advanced</span>
+                                <h3 className="skills_name">CSS</h3>
+                                <span className="skills_subtitle">Advanced</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={javascript} alt="skills image" />
                                 </div>
-                                <h3 className="skills__name">JavaScript</h3>
-                                <span className="skills__subtitle">Intermediate</span>
+                                <h3 className="skills_name">JavaScript</h3>
+                                <span className="skills_subtitle">Intermediate</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={reactImg} alt="skills image" />
                                 </div>
-                                <h3 className="skills__name">React</h3>
-                                <span className="skills__subtitle">Intermediate</span>
+                                <h3 className="skills_name">React</h3>
+                                <span className="skills_subtitle">Intermediate</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={sass} alt="skills image" />
                                 </div>
-                                <h3 className="skills__name">Sass</h3>
-                                <span className="skills__subtitle">Intermediate</span>
+                                <h3 className="skills_name">Sass</h3>
+                                <span className="skills_subtitle">Intermediate</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={bootstrap} alt="skills image" />
                                 </div>
-                                <h3 className="skills__name">Bootstrap</h3>
-                                <span className="skills__subtitle">Intermediate</span>
+                                <h3 className="skills_name">Bootstrap</h3>
+                                <span className="skills_subtitle">Intermediate</span>
                             </div>
                         </div>
                     </div>
@@ -81,51 +85,51 @@ const Skills = () => {
 
                 {/* ==================== SKILLS 2 ==================== */}
                 <Slide direction="right" triggerOnce="true" duration="3000">
-                    <div className="skills__content">
-                        <h3 className="skills__title">
-                            <i className="ri-pantone-line"></i> Backend Developer
+                    <div className="skills_content">
+                        <h3 className="skills_title">
+                            <RiDatabase2Line className="skills-title-logo"/> Backend Developer
                         </h3>
 
-                        <div className="skills__info">
+                        <div className="skills_info">
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={nodejsIcon} alt="Nodejs icon" />
                                 </div>
-                                <h3 className="skills__name">Nodejs</h3>
-                                <span className="skills__subtitle">Basic</span>
+                                <h3 className="skills_name">Nodejs</h3>
+                                <span className="skills_subtitle">Basic</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={pythonIcon} alt="Python icon" />
                                 </div>
-                                <h3 className="skills__name">Python</h3>
-                                <span className="skills__subtitle">Basic</span>
+                                <h3 className="skills_name">Python</h3>
+                                <span className="skills_subtitle">Basic</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={mysqlIcon} alt="MySQL icon" />
                                 </div>
-                                <h3 className="skills__name">MySQL</h3>
-                                <span className="skills__subtitle">Basic</span>
+                                <h3 className="skills_name">MySQL</h3>
+                                <span className="skills_subtitle">Basic</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={firebaseIcon} alt="Firebase icon" />
                                 </div>
-                                <h3 className="skills__name">Firebase</h3>
-                                <span className="skills__subtitle">Basic</span>
+                                <h3 className="skills_name">Firebase</h3>
+                                <span className="skills_subtitle">Basic</span>
                             </div>
 
-                            <div className="skills__data">
-                                <div className="skills__blob">
+                            <div className="skills_data">
+                                <div className="skills_img-container">
                                     <img src={mongodbIcon} alt="Mongodb icon" />
                                 </div>
-                                <h3 className="skills__name">Mongodb</h3>
-                                <span className="skills__subtitle">Basic</span>
+                                <h3 className="skills_name">Mongodb</h3>
+                                <span className="skills_subtitle">Basic</span>
                             </div>
 
                         </div>

@@ -1,29 +1,33 @@
 import { RiLinkedinBoxLine, RiGithubLine, RiFacebookBoxLine } from 'react-icons/ri';
-import perfil from '../assets/img/perfil.png';
 
 import { Slide } from "react-awesome-reveal";
 
+import ai_portrait from '../images/ai_portrait.png';
+
+
 const Home = () => {
   return (
+    /* ==================== HOME ==================== */
     <section className="home section" id="home">
-      <div className="home__container container grid section__border">
+      <div className="home_container container grid section_border">
+        {/* ==================== HOME 1 ==================== */}
         <Slide direction="down" triggerOnce="true" duration="3000">
-          <div className="home__data grid">
-            <h1 className="home__title">
+          <div className="home_data grid">
+            <h1 className="home_title">
               Let's take web development to the next level!
             </h1>
 
-            <div className="home__blob grid">
-              <div className="home__perfil">
-                <img src={perfil} alt="home perfil" />
+            <div className="home_portrait-container grid">
+              <div className="home-ai-portrait">
+                <img src={ai_portrait} alt="home ai-portrait" />
               </div>
             </div>
 
-            <ul className="home__social">
+            <ul className="home_social">
               <a
                 href="https://www.linkedin.com/in/tomas-%C5%A1pigelskis-6ab99524b/"
                 target="_blank"
-                className="home__social-link"
+                className="home_social-link"
               >
                 <RiLinkedinBoxLine />
               </a>
@@ -31,24 +35,25 @@ const Home = () => {
               <a
                 href="https://github.com/TomasSP1"
                 target="_blank"
-                className="home__social-link"
+                className="home_social-link"
               >
                 <RiGithubLine />
               </a>
 
-              <a href="#" target="_blank" className="home__social-link">
+              <a href="https://www.facebook.com/Phobusa.Deimusa" target="_blank" className="home_social-link">
                 <RiFacebookBoxLine />
               </a>
             </ul>
           </div>
         </Slide>
 
+        {/* ==================== HOME 2 ==================== */}
         <Slide direction="up" triggerOnce="true" duration="3000">
-          <div className="home__info">
+          <div className="home_info">
             <div>
-              <h3 className="home__info-title">INTRO</h3>
+              <h3 className="home_info-title">INTRO</h3>
 
-              <div className="home__info-description">
+              <div className="home_info-description">
                 <p>
                   &emsp; From streamlining work processes to igniting a passion,
                   programming has taken me on a journey that I never could have

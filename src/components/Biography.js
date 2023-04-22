@@ -1,24 +1,23 @@
-import React from 'react'
-
-import programmer1 from '../assets/img/programmer1.jpg';
-
 import { Slide } from "react-awesome-reveal";
+
+import programmer1 from '../images/programmer1.jpg';
+
 
 const Biography = () => {
     return (
         /* ==================== BIOGRAPHY ==================== */
         <section className="biography section" id="biography">
-            <h2 className="section__title">Biography</h2>
-            <span className="section__subtitle">Journey of my life</span>
-            <div className="biography__container container grid section__border">
+            <h2 className="section_title">Biography</h2>
+            <span className="section_subtitle">Journey of my life</span>
+            <div className="biography_container container grid section_border">
 
                 {/* ==================== BIOGRAPHY 1 ==================== */}
                 <Slide direction="left" triggerOnce="true" duration="3000">
-                    <div className="biography__content">
+                    <div className="biography_content">
 
-                        <div className="biography__info">
+                        <div className="biography_info">
 
-                            <div className="biography__data">
+                            <div className="biography_data">
                                 <img src={programmer1} alt="programmer1" />
                             </div>
 
@@ -28,15 +27,15 @@ const Biography = () => {
 
                 {/* ==================== BIOGRAPHY 2 ==================== */}
                 <Slide direction="right" triggerOnce="true" duration="3000">
-                    <div className="biography__content">
+                    <div className="biography_content">
 
-                        <div className="biography__info">
+                        <div className="biography_info">
 
-                            <h3 className="home__info-title">
+                            <h3 className="home_info-title">
                                 ABOUT
                             </h3>
 
-                            <div className="biography__info-description">
+                            <div className="biography_info-description">
                                 <p>&emsp; After completing my studies, I was drawn to the intriguing world of law
                                     enforcement. Climbing the ranks to become a chief investigator, I found my passion lay
                                     in cyber prevention. Little did I know, it was in this role that I would discover my
