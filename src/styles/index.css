@@ -104,7 +104,7 @@ body.dark-theme {
   --title-color: hsl(207, 4%, 95%);
   --text-color: hsl(207, 4%, 65%);
   --body-color: hsl(207, 4%, 10%);
-  --container-color: hsl(207, 4%, 12%);
+  --container-color: #252728;
 }
 
 /*========== Color changes in some parts of the website, in light theme ==========*/

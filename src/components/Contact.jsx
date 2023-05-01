@@ -16,31 +16,31 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Check if the fields have a value
+        /* Check if the fields have a value */
         if (name === '' || email === '' || project === '') {
-            // Show message
+            /* Show message */
             setMessage('Write all the input fields 📩');
             return;
         }
 
-        // Send email
+        /* Send email */
         emailjs.sendForm('service_ejn1dap', 'template_a44sdox', '#contact-form', 'IlMUZXDaD84dTnMOx')
             .then((response) => {
-                // Show message
+                /* Show message */
                 setMessage('Message sent ✅');
 
-                // Clear the input fields
+                /* Clear the input fields */
                 setName('');
                 setEmail('');
                 setProject('');
 
-                // Remove message after five seconds
+                /* Remove message after five seconds */
                 setTimeout(() => {
                     setMessage('');
                 }, 5000);
             })
             .catch((error) => {
-                // Show error message
+                /* Show error message */
                 alert('OOPS! SOMETHING HAS WENT WRONG...', error);
             });
     };
