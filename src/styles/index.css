@@ -356,6 +356,8 @@ body.dark-theme {
 .home_info {
   display: grid;
   row-gap: 2rem;
+  margin-top: -2rem;
+
 }
 
 .home_info-title {
@@ -371,6 +373,33 @@ body.dark-theme {
   color: var(--title-color);
   text-align: justify;
   /* font-size: 1vw; */
+}
+
+.resume_link {
+  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: var(--title-color);
+  border: none;
+  background: none;
+  font-size: var(--h2-font-size);
+  font-family: var(--title-font);
+  font-weight: var(--font-semi-bold);
+  cursor: pointer;
+  outline: none;
+  margin-top: .95rem;
+}
+
+.resume-submit-logo {
+  font-size: 1.5rem;
+  transition: transform .3s;
+  font-size: 1.5rem;
+  font-weight: initial;
+}
+
+.resume-submit-logo:hover {
+  transform: translateY(.25rem);
 }
 
 /*=============== BIOGRAPHY ===============*/
@@ -1014,6 +1043,10 @@ body.dark-theme {
     gap: 1rem 1.25rem;
   }
 
+  .home_info {
+    margin-top: -3rem;
+  }
+
   .skills_info {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1043,7 +1076,10 @@ body.dark-theme {
   .biography_data img {
     max-width: 464px;
     max-height: 618px;
+  }
 
+  .home_info {
+    margin-top: -2rem;
   }
 
   .skills_container {
@@ -1084,7 +1120,7 @@ body.dark-theme {
   }
 
   .home_info {
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
 
   .home_info-description {
@@ -1164,6 +1200,10 @@ body.dark-theme {
 
   .home_container {
     padding-top: 0;
+  }
+
+  .home_info {
+    margin-top: 10rem;
   }
 
   .biography_data img {
@@ -1256,7 +1296,7 @@ body.dark-theme {
   }
 
   .home_info {
-    margin-top: 15rem;
+    margin-top: 20rem;
   }
 
   .skills_container {
