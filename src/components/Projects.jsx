@@ -47,7 +47,7 @@ const Projects = () => {
                                     <div>
                                         <h1 className="projects_title">{project.title}</h1>
 
-                                        <a href={project.link} className="projects_button">
+                                        <a href={project.link} target="_blank" className="projects_button">
                                             View demo <RiArrowRightLine className='viev-demo-btn' />
                                         </a>
                                     </div>

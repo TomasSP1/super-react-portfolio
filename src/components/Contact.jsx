@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 
 import { Slide } from "react-awesome-reveal";
 
-import { RiArrowRightUpLine, RiMailSendLine } from 'react-icons/ri';
+import { RiArrowRightUpLine, RiMailSendLine, RiArrowRightLine } from 'react-icons/ri';
 
 
 function Contact() {
@@ -62,17 +62,17 @@ function Contact() {
                         </div>
                         <div className="contact_data">
                             <span className="contact_data-title">Whatsapp</span>
-                            <span className="contact_data-info">+370 607 61 ***</span>
-                            {/* <a href="#" target="_blank" className="contact__button">
-                            Write me <i className="ri-arrow-right-line"></i>
-                        </a> */}
+                            <span className="contact_data-info">+370 607 61 389</span>
+                            <a href="https://wa.me/37060761389" target="_blank" className="contact_button">
+                            Write me <RiArrowRightLine className="ri-arrow-right-line"/>
+                        </a>
                         </div>
                         <div className="contact_data">
                             <span className="contact_data-title">Messenger</span>
                             <span className="contact_data-info">Tomas SP</span>
-                            {/* <a href="#" target="_blank" className="contact__button">
-                            Write me <i className="ri-arrow-right-line"></i>
-                        </a> */}
+                            <a href="https://m.me/Phobusa.Deimusa" target="_blank" className="contact_button">
+                            Write me <RiArrowRightLine className="ri-arrow-right-line"/>
+                        </a>
                         </div>
                     </div>
                 </Slide>

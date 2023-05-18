@@ -864,6 +864,14 @@ body.dark-theme {
   font-size: var(--small-font-size);
 }
 
+.ri-arrow-right-line {
+  transition: transform .3s;
+}
+
+.ri-arrow-right-line:hover {
+  transform: translateX(.25rem);
+}
+
 .contact-submit-logo {
   font-size: 1.5rem;
   transition: transform .3s;
