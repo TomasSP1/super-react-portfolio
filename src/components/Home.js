@@ -69,7 +69,7 @@ const Home = () => {
                 </p>
               </div>
 
-              <a className='resume_link' href={resume} download='Resume'>
+              <a className='resume_link' href={} download='Resume'>
                 Resume <RiDownloadLine className='resume-submit-logo' />
               </a>
 
