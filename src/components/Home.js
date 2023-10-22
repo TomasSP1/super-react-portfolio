@@ -8,7 +8,7 @@ import {
 import { Slide } from "react-awesome-reveal";
 
 import ai_portrait from '../images/ai_portrait.png';
-import resume from '../images/Tomas_Resume.pdf'
+// import resume from '../images/Tomas_Resume.pdf'
 
 
 const Home = () => {
@@ -69,9 +69,9 @@ const Home = () => {
                 </p>
               </div>
 
-              <a className='resume_link' href={} download='Resume'>
-                Resume <RiDownloadLine className='resume-submit-logo' />
-              </a>
+              // <a className='resume_link' href={resume} download='Resume'>
+              //   Resume <RiDownloadLine className='resume-submit-logo' />
+              // </a>
 
             </div>
 
